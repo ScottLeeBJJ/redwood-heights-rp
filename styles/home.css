@@ -22,3 +22,49 @@ body {
     font-size: 20px;
     color: black;
 }
+
+.features {
+    text-align: left;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.features h2 {
+    color: darkred;
+    text-align: center;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.cta {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: darkred;
+    color: gold;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: red;
+    transform: scale(1.3);
+}

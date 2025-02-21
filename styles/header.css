@@ -32,4 +32,5 @@
 
 .nav-links a:hover {
     color: white;
+    transform: scale(1.3);
 }
