@@ -1,0 +1,12 @@
+.footer-wrapper {
+    background-color: darkred;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    color: gold;
+    font-size: 16px;
+    text-align: center;
+}

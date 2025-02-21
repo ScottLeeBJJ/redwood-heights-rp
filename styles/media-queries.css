@@ -1,0 +1,100 @@
+/* 
+====================================
+Media Queries for Responsive Design
+====================================
+*/
+
+/* Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav-links {
+        margin-top: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .nav-links a {
+        font-size: 16px;
+    }
+
+    .content h1 {
+        font-size: 32px;
+    }
+
+    .content p {
+        font-size: 18px;
+    }
+}
+
+/* Mobile Devices (max-width: 768px) */
+@media (max-width: 768px) {
+    .header-wrapper {
+        padding: 10px 0;
+    }
+
+    .logo img {
+        height: 60px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-links a {
+        font-size: 16px;
+        display: block;
+        padding: 5px;
+    }
+
+    .content h1 {
+        font-size: 28px;
+    }
+
+    .content p {
+        font-size: 16px;
+    }
+
+    .footer-wrapper {
+        padding: 10px;
+    }
+
+    .footer {
+        font-size: 14px;
+    }
+}
+
+/* Small Mobile Devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .header {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .logo img {
+        height: 50px;
+    }
+
+    .nav-links {
+        text-align: center;
+        gap: 8px;
+    }
+
+    .content h1 {
+        font-size: 24px;
+    }
+
+    .content p {
+        font-size: 14px;
+    }
+
+    .footer {
+        font-size: 12px;
+    }
+}
