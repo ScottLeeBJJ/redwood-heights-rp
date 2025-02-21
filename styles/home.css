@@ -1,0 +1,24 @@
+body {
+    background-color: gold;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    text-align: center;
+    padding: 30px;
+}
+
+.content h1 {
+    font-size: 36px;
+    color: darkred;
+}
+
+.content p {
+    font-size: 20px;
+    color: black;
+}
