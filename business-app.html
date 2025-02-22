@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/business.css">
+    <link rel="stylesheet" href="./styles/rules.css">
+    <link rel="stylesheet" href="./styles/media-queries.css">
+</head>
+
+<body>
+    <!-- Header section -->
+    <div class="header-wrapper">
+        <div class="header">
+            <!-- Server Logo -->
+            <div class="logo">
+                <img src="./images/redwoodheightslogo.png" alt="Redwood Heights Logo">
+            </div>
+
+            <!-- Navigation Links -->
+            <nav class="nav-links">
+                <a href="./index.html">Home</a>
+                <a href="rules.html">Server Rules</a>
+                <a href="./job-applications.html">Job Applications</a>
+                <a href="./admin-application.html">Admin Application</a>
+                <a href="./business-app.html">Businesses Application</a>
+                <a href="https://redwood-heights.tebex.io/checkout/basket" target="_blank">Tebex Store</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Business Application Form -->
+    <form action="mailto:redwoodheightsroleplay@gmail.com" class="business-form"><h1>Apply for Business License Below:</h1>
+        <div class="container">
+            <form action="#" method="POST">
+                <div class="question-container">
+                    <div class="question-number">1.</div>
+                    <label for="discord">What is your Discord name and ID? (Example: Username#1234)</label>
+                    <input type="text" id="discord" name="discord" required>
+                </div>
+                
+                <div class="question-container">
+                    <div class="question-number">2.</div>
+                    <label for="how_long">How long have you been a part of Redwood Heights? (Specify in weeks/months)</label>
+                    <input type="text" id="how_long" name="how_long" required>
+                </div>
+                
+                <div class="question-container">
+                    <div class="question-number">3.</div>
+                    <label for="age">How old are you in real life? (Minimum age may be required based on server rules)</label>
+                    <input type="number" id="age" name="age" required>
+                </div>
+                
+                <div class="question-container">
+                    <div class="question-number">4.</div>
+                    <label for="ban">Have you ever been banned or do you have any active strikes on your account? (Be honest; this will be checked)</label>
+                    <textarea id="ban" name="ban" required></textarea>
+                </div>
+                
+                <div class="question-container">
+                    <div class="question-number">5.</div>
+                    <label for="business_type">What type of business do you want to create, and how will it function within the server? (Be detailed about the services or products)</label>
+                    <textarea id="business_type" name="business_type" required></textarea>
+                </div>
+                
+                <div class="question-container">
+                    <div class="question-number">6.</div>
+                    <label for="location">Will your business require a physical location, and do you have a preferred spot in mind? (Specify if you want a custom MLO or an existing building)</label>
+                    <textarea id="location" name="location" required></textarea>
+                </div>
+                
+                <div class="question-container">
+                    <div class="question-number">7.</div>
+                    <label for="items_services">What kind of items or services will your business provide, and how do you want them priced? (Provide estimated pricing for balance checks)</label>
+                    <textarea id="items_services" name="items_services" required></textarea>
+                </div>
+                
+                <div class="question-container">
+                    <div class="question-number">8.</div>
+                    <label for="custom_development">Will your business require a custom script, MLO, or job system (employees, paychecks, ranks, etc.)? (Specify any required development)</label>
+                    <textarea id="custom_development" name="custom_development" required></textarea>
+                </div>
+                
+                <div class="question-container">
+                    <div class="question-number">9.</div>
+                    <label for="player_npc">Do you want your business to be player-run only, or should it include NPC interactions? (Example: AI mechanics, vendors, automated tasks, etc.)</label>
+                    <textarea id="player_npc" name="player_npc" required></textarea>
+                </div>
+                
+                <div class="question-container">
+                    <div class="question-number">10.</div>
+                    <label for="economy_roleplay">How will your business contribute to the server’s economy and roleplay scene? (Explain how it will be engaging and unique)</label>
+                    <textarea id="economy_roleplay" name="economy_roleplay" required></textarea>
+                </div>
+                
+                <div class="question-container">
+                    <div class="question-number">11.</div>
+                    <label for="roleplay_opportunities">How will your business create roleplay opportunities for other players, including those not employed by it? (Example: partnerships, events, community engagement, etc.)</label>
+                    <textarea id="roleplay_opportunities" name="roleplay_opportunities" required></textarea>
+                </div>
+                
+                <div class="question-container">
+                    <div class="question-number">12.</div>
+                    <label for="longterm_sustainability">How do you plan to keep your business active and engaging for the community? (Long-term sustainability)</label>
+                    <textarea id="longterm_sustainability" name="longterm_sustainability" required></textarea>
+                </div>
+                
+                <div class="question-container">
+                    <div class="question-number">13.</div>
+                    <label for="additional_requests">Do you have any additional requests or ideas for your business? (Anything extra you’d like to mention)</label>
+                    <textarea id="additional_requests" name="additional_requests"></textarea>
+                </div> 
+                <input type="submit" value="Submit Application">
+            </form>
+        </div>
+    </form>
+
+    <!-- Rules Section -->
+         <!-- Server Rules -->
+    <div class="rules-content-wrapper">
+        <h2 style="text-align: center;">Rules For Businesses in Redwood Heights</h2>
+
+        <div class="rule">
+            <div class="rule-title">
+                General Business Operations<span class="arrow">▶</span>
+            </div>
+            <div class="rule-content">
+                <h3>1. Registration</h3>
+                <p>*All businesses must be registered and approved by the server’s governing body before operating. This includes providing a valid application with details about the business name, location, and services.</p>
+                <ul>
+                    <li>Business approval: Ensure all business details are submitted and approved by the server’s governing body before opening.</li>
+                </ul>
+
+                <h3>2. Licensing and Permits</h3>
+                <p>*Businesses must obtain and display all required licenses and permits, including those for specific activities such as selling alcohol, running events, or operating heavy machinery.</p>
+                <ul>
+                    <li>Proper licenses: Ensure your business has the necessary documentation for specific activities.</li>
+                </ul>
+
+                <h3>3. Compliance with Laws</h3>
+                <p>*Businesses are expected to adhere to all local and server-wide regulations, including tax laws, labor laws, and environmental standards.</p>
+                <ul>
+                    <li>Adherence to laws: Stay compliant with all legal and server rules to avoid fines or penalties.</li>
+                </ul>
+
+                <h3>4. Hours of Operation</h3>
+                <p>*Businesses must adhere to the hours of operation defined in their application, ensuring fairness and preventing unrealistic practices.</p>
+                <ul>
+                    <li>Defined hours: Operate your business within the scheduled hours as submitted in the registration.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="rule">
+            <div class="rule-title">
+                Fire Safety and Emergency Preparedness<span class="arrow">▶</span>
+            </div>
+            <div class="rule-content">
+                <h3>5. Fire Safety Equipment</h3>
+                <p>*All businesses must have accessible fire extinguishers, functioning smoke detectors, and visible emergency exit signs.</p>
+                <ul>
+                    <li>Accessible equipment: Ensure that fire safety equipment is easy to access and in good working condition.</li>
+                </ul>
+
+                <h3>6. Emergency Exits</h3>
+                <p>*Emergency exits must remain unlocked and unobstructed during business hours to ensure safe evacuation in case of an emergency.</p>
+                <ul>
+                    <li>Unobstructed exits: Keep all emergency exits clear and easily accessible for the safety of staff and customers.</li>
+                </ul>
+
+                <h3>7. Fire Safety Training</h3>
+                <p>*Business owners are responsible for ensuring their staff understands basic fire safety procedures and can respond to emergencies.</p>
+                <ul>
+                    <li>Staff training: Provide fire safety training to ensure that all staff are aware of emergency procedures.</li>
+                </ul>
+
+                <h3>8. Regular Inspections</h3>
+                <p>*Businesses must allow fire safety officials to inspect their premises regularly to ensure compliance with safety regulations.</p>
+                <ul>
+                    <li>Cooperate with inspections: Allow fire safety officials to inspect your business premises to ensure compliance with safety standards.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="rule">
+            <div class="rule-title">
+                Inspections and Compliance<span class="arrow">▶</span>
+            </div>
+            <div class="rule-content">
+                <h3>9. Routine Inspections</h3>
+                <p>*Businesses must allow government officials and authorized inspectors to conduct routine or surprise inspections. Failure to comply will result in penalties or possible closure.</p>
+                <ul>
+                    <li>Cooperate with inspectors: Businesses must allow authorized personnel to inspect their premises to ensure compliance with regulations.</li>
+                </ul>
+                
+                <h3>10. Inspection Records</h3>
+                <p>*Businesses are required to maintain up-to-date inspection records, licenses, and permits. These must be available for review upon request.</p>
+                <ul>
+                    <li>Maintain proper documentation: Ensure all inspection and legal documents are up to date and available for review at any time.</li>
+                </ul>
+                
+                <h3>11. Temporary Closures</h3>
+                <p>*If significant safety or compliance issues are found, the business may be temporarily shut down until all issues are resolved.</p>
+                <ul>
+                    <li>Temporary shutdowns: Businesses must cease operations if deemed unsafe or non-compliant until all issues are resolved and re-approved.</li>
+                </ul>
+                
+                <h3>12. Handling Violations</h3>
+                <p>*Violations found during inspections must be addressed within the timeline given by the inspecting authority. Repeat violations may result in permanent business closure.</p>
+                <ul>
+                    <li>Address violations promptly: Correct any violations within the timeline provided by authorities to avoid penalties or permanent closure.</li>
+                </ul>                  
+            </div>
+        </div>
+
+        <div class="rule">
+            <div class="rule-title">
+                Rolepaly and Community<span class="arrow">▶</span>
+            </div>
+            <div class="rule-content">
+                <h3>13. Employee Safety</h3>
+                <p>*Business owners must ensure the safety and well-being of their employees while on duty, including providing fair wages and enforcing roleplay-safe working conditions.</p>
+                <ul>
+                    <li>Employee welfare: Business owners should provide safe and fair working environments, offering fair wages and maintaining safe practices for all employees.</li>
+                </ul>
+                
+                <h3>14. Customer Interaction</h3>
+                <p>*Businesses must provide engaging and realistic roleplay interactions for customers. Poor conduct or neglect of roleplay standards can result in a warning or loss of business privileges.</p>
+                <ul>
+                    <li>Respectful customer service: All business owners and staff must engage customers with realistic and immersive roleplay to enhance the experience.</li>
+                </ul>
+                
+                <h3>15. Collaboration</h3>
+                <p>*Business owners are encouraged to collaborate with other players and businesses to create roleplay opportunities, events, and scenarios.</p>
+                <ul>
+                    <li>Cross-business collaboration: Working with other players and businesses to generate events or roleplay scenarios helps enrich the server environment.</li>
+                </ul>
+                
+                <h3>16. Dispute Resolution</h3>
+                <p>*All disputes involving the business should be handled in-character. If an issue cannot be resolved, seek assistance from server administration.</p>
+                <ul>
+                    <li>In-character conflict resolution: Any disputes between employees, customers, or other businesses should be roleplayed in-character first.</li>
+                    <li>Seek staff support: If disputes escalate beyond roleplay resolution, involve server administration to handle the issue.</li>
+                </ul>                                 
+            </div>
+        </div>
+
+        <div class="rule">
+            <div class="rule-title">
+                Consequences for Non-Compliance<span class="arrow">▶</span>
+            </div>
+            <div class="rule-content">
+                <h3>17. Penalties for Violations</h3>
+                <p>*Businesses found in violation of these rules may face fines, temporary suspension, or removal from the server, depending on the severity of the infraction.</p>
+                <ul>
+                    <li>Fines and suspension: Businesses may face penalties such as fines or temporary suspensions if they violate any server regulations.</li>
+                    <li>Severe violations: In cases of major infractions, businesses may be permanently removed from the server to ensure fair play.</li>
+                </ul>
+                
+                <h3>18. Appeals Process</h3>
+                <p>*Business owners may appeal any penalties or decisions through the server’s designated appeal process.</p>
+                <ul>
+                    <li>Appeal process: Business owners can submit an appeal to the server’s administration to contest penalties or decisions.</li>
+                    <li>Fair review: All appeals will be reviewed fairly, with the final decision resting with the server administration.</li>
+                </ul>                           
+            </div>
+        </div>
+
+        <h2>
+            *These rules align with the application process and ensure that businesses enhance roleplay while maintaining standards for safety and legality.
+        </h2>
+    </div>
+
+
+
+
+    <!-- Template Below -->
+    <!-- <div class="rules-content-wrapper">
+        <h2 style="text-align: center;">Redwood Heights Server Rules</h2>
+
+        <div class="rule">
+            <div class="rule-title">
+                Rules For Businesses in Redwood Heights <span class="arrow">▶</span>
+            </div>
+            <div class="rule-content">
+
+            </div>
+        </div>
+    </div> -->
+
+    <!-- JavaScript -->
+    <script>
+        document.querySelectorAll('.rule-title').forEach(rule => {
+            rule.addEventListener('click', () => {
+                rule.parentElement.classList.toggle('active');
+            });
+        });
+    </script>
+
+
+    <!-- Footer Section -->
+    <div class="footer-wrapper">
+        <div class="footer">
+            <p>&copy; 2024 Redwood Heights Roleplay | All Rights Reserved | Website Developed by U.S. Army Veteran</p>
+        </div>
+    </div>
+</body>
+</html>
