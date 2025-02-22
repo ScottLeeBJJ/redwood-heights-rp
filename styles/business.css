@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #f4f4f9; /* Light background color */
+}
+
+.business-form {
+    background-color: #1e1e1e;
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #fff; /* Set text color to white for contrast */
+    display: grid; /* Use grid to structure the form content */
+    gap: 15px; /* Gap between form elements */
+    margin: 0 auto; /* Center horizontally */
+    justify-self: center; /* Center the form horizontally in its container */
+    align-self: center; /* Center the form vertically */
+}
+
+h1 {
+    text-align: center;
+    color: gold;
+}
+
+label {
+    font-weight: bold;
+    color: goldenrod;
+}
+
+textarea, input[type="text"], input[type="number"], select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gold;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #333; /* Dark background for inputs */
+    color: white; /* White text color */
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; /* Make the submit button full-width */
+}
+
+input[type="submit"]:hover {
+    background-color: red;
+}
+
+.question-number {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.question-container {
+    margin-bottom: 20px;
+}
+
+.question-number {
+    color: red;
+}
+
+textarea {
+    resize: vertical; /* Allow users to resize the textarea vertically */
+    min-height: 100px; /* Set minimum height for better usability */
+}
+
+input[type="text"], input[type="number"] {
+    min-height: 40px; /* Set a minimum height for text and number inputs */
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+}
