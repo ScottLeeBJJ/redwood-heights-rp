@@ -42,7 +42,7 @@ textarea, input[type="text"], input[type="number"], select {
     box-sizing: border-box;
 }
 
-input[type="submit"] {
+button[type="submit"] {
     background-color: red;
     color: white;
     padding: 12px 20px;
@@ -53,7 +53,7 @@ input[type="submit"] {
     width: 100%; /* Make the submit button full-width */
 }
 
-input[type="submit"]:hover {
+button[type="submit"]:hover {
     background-color: red;
 }
 
