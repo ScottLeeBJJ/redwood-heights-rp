@@ -3,6 +3,10 @@
     padding: 15px;
     display: flex;
     justify-content: center;
+    border: solid black;
+    text-shadow: black 2px 2px 2px;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .footer {

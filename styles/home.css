@@ -2,6 +2,12 @@ body {
     background-color: gold;
     margin: 0;
     font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+iframe {
+    border: solid red;
+    box-shadow: 8px 8px 8px;
 }
 
 .content-wrapper {
