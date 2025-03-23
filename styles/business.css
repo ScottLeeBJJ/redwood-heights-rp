@@ -28,7 +28,7 @@ h1 {
 
 label {
     font-weight: bold;
-    color: goldenrod;
+    color: red;
 }
 
 textarea, input[type="text"], input[type="number"], select {
@@ -61,14 +61,11 @@ button[type="submit"]:hover {
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 10px;
+    color: red;
 }
 
 .question-container {
     margin-bottom: 20px;
-}
-
-.question-number {
-    color: red;
 }
 
 textarea {
