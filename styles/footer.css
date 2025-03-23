@@ -14,3 +14,11 @@
     font-size: 16px;
     text-align: center;
 }
+
+.footer button {
+    background-color: black;
+    color: gold;
+    cursor: pointer;
+    border: solid gold;
+    padding: 10px;
+}
